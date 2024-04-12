@@ -1,0 +1,14 @@
+python3 -m venv venv
+source activate/bin/activate
+python3 -m pip install django
+django-project startproject something
+
+__init__ makes python to treat like python package
+
+to communicate web server -> asgi.py and wsgi.py
+
+manage.py -> acts as a command line tool 
+          -> to run special commands like database migrations
+
+next steps -> to create django app 
+.go to django folder and command (python manage.py startapp myapp)
