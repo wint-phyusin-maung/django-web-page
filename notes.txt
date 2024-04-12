@@ -12,3 +12,5 @@ manage.py -> acts as a command line tool
 
 next steps -> to create django app 
 .go to django folder and command (python manage.py startapp myapp)
+
+git remote set-url origin https://github.com/wint-phyusin-maung/django-web-page.git
