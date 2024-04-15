@@ -1,0 +1,14 @@
+{%extends "base.html"%}
+{%block content%}
+<h1>My N5course </h1>
+<ul>
+    {%for cha in n5courses%}
+        <li>
+            {{cha.chapter}}: {%if cha.completed%}Completed{% else %}Not completed{% endif %}
+            {{kanji}}
+        </li>
+    {%endfor%}
+</ul>
+{%endblock%}
+
+
